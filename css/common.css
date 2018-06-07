@@ -1,0 +1,22 @@
+/* reset 样式重置 */
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+li { list-style:none; }
+a { text-decoration:none;color: #1E50A2; cursor: pointer;}
+a:hover{color: #ba2636;}
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { border:none; }
+textarea { resize:none; overflow:auto; }
+body {min-height: 100%; font: 12px/1.5 arial,\5b8b\4f53;color: #333; background: #fff;}
+/* end reset */
+
+/* public 公共部分*/
+.main{width: 990px;margin: 0 auto;}
+.rednum{color: #ba2636;}
+.bluenum{color: #1e50a2;}
+.clear { zoom:1; }  /* 兼容IE浏览器清除浮动 */
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; } 
+.fr { float:right; }
+.hide{display: none;}

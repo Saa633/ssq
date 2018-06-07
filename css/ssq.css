@@ -1,0 +1,238 @@
+header .top{border-bottom: 1px solid #f0f0f0; background: #f5f5f5; color: #717171; position: relative; z-index: 209; width: 100%; min-width: 990px;}
+header .top .main{display: block; height: 30px; line-height: 30px; font-size: 12px; color: rgb(93, 93, 93); font-family: Arial, 宋体; position: relative; }
+header .top .main p{display: inline-block;width: auto;height: 30px;line-height: 30px;}
+header .top .main ul{line-height: 30px; font-size: 12px; font-family: Arial,"宋体";}
+header .top .main ul li{display: block;float: left;margin-left: 5px;}
+header .top .main ul li a{color: #323232;}
+header .top .main a:hover{ text-decoration: underline; color: #ba2636;}
+/*顶部结束*/
+/*logo区开始*/
+header .ad{ height: 70px; position: relative;background: url(../img/2014110120TT30738653.jpg) 50% 0px no-repeat rgb(255, 255, 255); font: 12px/1.5 arial, 宋体; z-index: 1;}
+header .ad .main .logo{display: inline-block;width: 170px;height: 42px;margin: 15px 0 0 32px;}
+header .ad .main .service{background: url(../img/service-24_33e2b60.png) no-repeat 0 0; height: 56px; width: 128px; border: none; text-indent: 52px; display: block; font: 14px/55px Microsoft YaHei,simsun; color: #717171;margin-top: 13px;}
+/*logo区结束*/
+/*导航开始*/
+header .nav{height: 40px; width: 100%; min-width: 990px; margin-bottom: -1px; background: url(../img/head_repeat_54a7e8b.png) 0px -31px repeat-x rgb(153, 20, 41); border-bottom: 1px solid rgb(225, 225, 225); font: 12px/1.5 arial, 宋体;}
+header .nav .main ul{ display: block;height: 40px; line-height: 40px;color: #bf4a5a; margin-right: -5px;}
+header .nav .main ul a{display: inline-block; height: 40px; line-height: 40px; padding: 0 12px; font-size: 14px; font-weight: 700;color: #fff;text-decoration: none; position: relative;}
+header .nav .main ul li{display: block;float: left; position: relative;}
+header .nav .main ul li #menu{display: inline-block;width: 186px; background: transparent url(../img/topEntry_56f27f6.png) 0 0; color: #fff; text-align: left; padding: 0 22px; outline: 0; position: relative; -webkit-box-shadow: 0 -4px 10px 0 #555; box-shadow: 0 -4px 10px 0 #555;margin-right: 10px;}
+header .nav .main ul li #menu:hover{background-position: 0 -40px;}
+header .nav .main ul li a.wordsnum2{width: 75px;}
+header .nav .main ul li a.wordsnum4{width: 84px;}
+header .nav .main ul li a.wordsnum2,header .nav .main ul li a.wordsnum4{ padding: 0; text-align: center; text-indent: -8px; position: relative; top: 0; left: 0;}
+header .nav .main ul li a i{ position: absolute; top: 18px; width: 0; height: 0; overflow: hidden; margin-left: 2px; border-width: 4px 4px 0; _border-width: 3px 3px 0; border-color: #fff transparent transparent; border-style: solid; _border-style: solid dotted; -webkit-transition: -webkit-transform .2s ease-in; -moz-transition: -moz-transform .2s ease-in; -ms-transition: -ms-transform .2s ease-in; -o-transition: -o-transform .2s ease-in; transition: transform .2s ease-in; zoom: 1;}
+header .nav .main ul li a:hover{background: #d84257 url(../img/head_repeat_54a7e8b.png) 0 -71px repeat-x; text-decoration: none;}
+header .nav .main ul li:hover a i{transform: rotate(180deg);}
+header .nav .main ul li.active a{top: 2px;background: #fff;color: #BA2636;line-height: 33px;}
+header .nav .main ul li.active a i{border-color: #BA2636 transparent transparent;transform: rotate(180deg);}
+header .nav .main ul li.active:hover a i{transform: rotate(360deg);}
+header .nav .main ul li a span.icon{display: inline-block; width: 33px; height: 40px; cursor: pointer; vertical-align: middle; background: url(../img/mob_red_74d2d80.png) no-repeat center;}
+header .nav .main ul li.active a span.icon{display: inline-block; width: 33px; height: 40px; cursor: pointer; vertical-align: middle; background: url(../img/mob_red1_b7b0924.png) no-repeat center;}
+/*导航结束*/
+
+/*通知栏开始*/
+.infor{background-color: #FFFDE6; border: 1px solid #FFEACB; color: #333; font: 12px/30px simsun; height: 30px; overflow: hidden; margin: 5px auto -5px; padding: 0 0 0 10px; width: 978px;}
+.infor strong{line-height: 16px; padding: 8px 0 0; white-space: nowrap;font-weight: bold;}
+.infor strong b{ position: relative; width: 14px; height: 14px; background: url(../img/icon16px_53a72f4.png) no-repeat 0 -63px; margin: -3px 5px 0 0; display: inline-block; vertical-align: middle;}
+/*通知栏结束*/
+/*主体开始*/
+.docbody{ color: #333; padding-bottom: 15px; margin-top: 10px;}
+.docbody a{ color: #333;}
+.gameheader{padding: 5px 5px 0; clear: both; border: 1px solid #dedede; border-bottom: 3px solid #ba2636; background: #fff; position: relative;}
+.headerbox{background: url(../img/ssq_repeat_20844af.png) repeat-x 0 -190px; padding-right: 8px;}
+.titlebox{width: 880px;height: 36px; position: relative; padding-left: 90px;line-height: 31px;}
+.titlebox .ball{ position: absolute; left: 5px; top: -15px; width: 81px; height: 85px; display: block; text-indent: -999px; overflow: hidden; background: url(../img/czlogo_81x85_aa348eb.png) 0 0 no-repeat;}
+.titlebox h1{font-size: 20px; font-family: '微软雅黑',Simsun; float: left; font-weight: 700; padding-left: 5px; margin-right: 10px;}
+.titlebox h1 a{color: #333;}
+.titlebox h1 a:hover{ color: #ba2636; text-decoration: none; }
+.titlebox .gameintr{margin-right: 12px;}
+/*双色球导航菜单*/
+.menubox{height: 31px; line-height: 30px; padding-left: 90px;width: 880px;}
+.menubox ul li{display: block;float: left; width: 94px; border: 1px solid #dedede; border-bottom: 0; margin-right: -1px; text-align: center; font-size: 14px; font-weight: 700; cursor: pointer;}
+.menubox ul li a{color: #333;}
+.menubox ul li.active{border-color: #ba2636; background-color: #ba2636; margin: 0; width: 93px;}
+.menubox ul li.active a{color: #fff;}
+.menubox .countdown{ text-align: right; white-space: nowrap;}
+.menubox .countdown p em{ display: inline-block; height: 24px; line-height: 24px; width: 19px; text-align: center; font-size: 22px; font-family: Arial; color: #b12034; background: url(../img/lotteryBaseImg_9f1beac.png) no-repeat -88px -17px; margin-right: 1px;}
+
+/*主体部分*/
+.section{ clear: both; float: none; border: 1px solid #d3d3d3;overflow: hidden; }
+.section #betnav{ clear: both; height: 28px; border: solid #dedede; border-width: 1px 0; background: #f8f8f8; padding: 0 8px 0 15px; border-top: 0; }
+#betnav ul{ padding-top: 3px; margin-bottom: -1px; height: 26px; }
+#betnav ul li{display: inline-block; float: left; line-height: 25px;width: 75px; text-align: center; height: 25px; cursor: pointer; position: relative;}
+#betnav ul li a{color: #333;}
+#betnav ul li a:hover{color: #ba2636;}
+#betnav ul li.active a {color: #fff; background-color: #b12034; width: 75px; height: 26px; position: absolute; top: 0; left: 0; -webkit-border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0;}
+#betnav ul li.active em{display: block; position: absolute;left: 50%; margin-left: -4px; top: 26px; border-width: 4px; border-style: solid dashed dashed dashed; border-color: #ba3232 transparent transparent transparent; font-size: 0; overflow: hidden;}
+#betnav .fr a{line-height: 28px;color: #323232;margin: 0 8px;}
+#betnav .fr a:hover{text-decoration: underline;}
+#betnav .fr a i{ display: inline-block; background: url(../img/icon16px_53a72f4.png) no-repeat -106px -42px; width: 12px; height: 12px; margin-left: 2px; vertical-align: baseline;}
+
+.section .betbox{background: #fff; width: 749px;height: 500px;}
+
+#mainball .selectnum{padding-top: 5px;}
+#mainball .selectnum .title{padding-top: 5px; clear: both; height: 30px; line-height: 30px; padding-left: 42px; position: relative; overflow: hidden;}
+#mainball .selectnum .title h2{ text-align: center;float: left;}
+#mainball .selectnum .title h2 span{color: #c4c4c4; font-size: 12px; font-weight: 500;}
+
+#mainball .selectnum .title h2.redtxt{width: 423px; margin-right: 41px;}
+#mainball .selectnum .title h2.redtxt strong{ color: #ba2636; font-size: 14px;}
+#mainball .selectnum .title h2.bluetxt strong{ margin-right: 10px; color: #1e50a2; font-size: 14px;}
+#mainball .selectnum .title h2.bluetxt{ width: 228px;}
+
+
+#mainball .selectnum .ballarea{ clear: both; float: none; padding-top: 4px;}
+/*红色球*/
+.ballarea .redballbox {width: 430px; padding-right: 34px; padding-left: 42px;}
+.ballarea .redballbox li,.ballarea .blueballbox li{ width: 33px; margin-right: 6px; float: left; text-align: center; height: 41px; line-height: 14px;}
+.ballarea .redballbox li a,.ballarea .blueballbox li a{ color: #333; background: url(../img/newballs_0df07ea.png) 0 0 no-repeat; width: 33px; height: 33px; display: block; text-align: center; line-height: 34px; font-size: 16px; font-weight: 700; overflow: hidden; outline: 0;}
+.ballarea .redballbox li a:hover{ background-position: -35px 0; color: #333;}
+.ballarea .redballbox li a.active{background-position: -70px 0; color: #fff;}
+.ballarea .redballbox li .active:hover{background-position: -70px 0; color: #fff;}
+/*蓝色球*/
+#mainball .selectnum .ballarea .blueballbox{width: 234px; }
+.ballarea .blueballbox li a:hover{ background-position: -105px 0; color: #333;}
+.ballarea .blueballbox li a.active{background-position: -140px 0; color: #fff;}
+.ballarea .blueballbox li .active:hover{background-position: -140px 0; color: #fff;}
+.ballarea .redballbox p,.ballarea .blueballbox p{ clear: both; float: none; text-align: right; color: #717171; line-height: 22px; padding: 2px 10px 0 0;}
+.ballarea .redballbox p select,.ballarea .blueballbox p select{width: 45px; line-height: 20px;}
+
+.ballarea a.radom{ height: 20px; width: 58px; line-height: 20px; border: 1px solid #c9c9c9; border-radius: 2px; display: inline-block;background: url(../img/ssq_repeat_20844af.png) repeat-x 0 0; text-align: center; margin: 0 7px 0 4px;}
+.ballarea a.clearing{ cursor: pointer;color: #717171;}
+
+.ballarea .selectinfo{ height: 20px; clear: both; float: none; text-align: center; padding-top: 11px;}
+.ballarea .selectinfo span { background: #fff; padding: 0 10px; display: inline-block; position: relative; z-index: 3;}
+.ballarea .selectinfo strong { padding: 0 5px;}
+.ballarea .selectinfo i{ display: block; margin: -8px 15px 0 37px; height: 1px; border-top: 1px dotted #aeaeae; position: relative;}
+/*球区结束*/
+
+/*确认选号按钮*/
+.betbtnBox{ padding: 11px 0 6px 0; text-align: center;}
+.betbtnBox a{display: inline-block; height: 34px; width: 137px; background: url(../img/lotteryBaseImg_9f1beac.png) no-repeat 0 -75px;}
+.betbtnBox a.disabled{background-position: 0 -145px;}
+.betbtnBox .betbtn:hover{ background-position: 0 -111px;}
+.betbtnBox .disabled:hover { background-position: 0 -145px;}
+.revisebtnBox .betbtn { background-position: 0 -490px;}
+.revisebtnBox .betbtn:hover { background-position: 0 -525px;}
+/*确认选号按钮结束*/
+
+/*已选号码区*/
+.selected_box{padding-left: 81px; }
+.selected_list { border: 1px solid #b6b6b6;}
+.selected_list dl { border-top: 1px solid #f1f1f1; border-left: 1px solid #fafafa; width: 479px; height: 135px; overflow-x: hidden; overflow-y: scroll;}
+
+/*动态添加的dd  统计彩票 开始*/
+.selected_list dd {overflow: hidden; line-height: 26px; border-bottom: 1px dotted #aeaeae; padding: 0 5px; clear: both;height: 26px; width: 451px; animation: Show 2s forwards ease-out; transition: width,height 1s ease-in-out}
+@keyframes Show{
+	from{height: 0; width: 0;background-color: #FBF8E5;}
+	20%{height: 26px; width: 451px;background-color: #FBF8E5;}
+	99%{height: 26px; width: 451px;background-color: #FBF8E5;}
+	to{height: 26px; width: 451px;background-color:  rgb();}
+}
+@keyframes Hide{
+	from{height: 26px; width: 451px;}
+	to{height: 0; width: 0;}
+}
+.selected_list dd:hover{background-color: #FBF8E5;}
+.selected_list dd.hover{background-color: #FFEEBF;	}
+.selected_list dd .type { width: 50px; float: left;}    
+.selected_list dd .nums { font-weight: 700; float: left; text-overflow: ellipsis; overflow: hidden; width: 260px; white-space: nowrap; color: #c4c4c4;}
+.selected_list dd .edit { float: right;}
+.selected_list dd .edit a { margin: 0 3px; color: #717171;}
+.selected_list dd .edit a:hover{ color: #ba2636;}
+.selected_list dd .sum { float: right; padding-right: 10px; text-align: right;}
+.selected_list dd .nums strong { padding: 0 5px; font-family: Simsun;}
+/*动态添加的dd  统计彩票  结束*/    
+
+
+.selected_history { background-color: #f9f9f9; border: 1px solid #b6b6b6; border-top-width: 0; height: 24px; width: 480px; line-height: 24px; text-align: right; font-size: 12px;}
+.selected_history a{ margin-right: 26px;}
+.selected_btnbox { float: left; position: relative; padding-left: 10px;}
+.selected_btnbox .selected_btn{ height: 26px; width: 96px; line-height: 26px; border: 1px solid #c9c9c9; border-radius: 2px; display: block; background: url(../img/ssq_repeat_20844af.png) repeat-x 0 -64px; text-align: center; margin-bottom: 8px; }
+.randomBtn { height: 28px; overflow: visible; margin-bottom: 10px; width: 98px; font-family: Tahoma; position: relative; overflow: hidden;}
+.randomBtn label { float: left; line-height: 28px; position: relative; text-align: center; cursor: default; border: 1px solid #B4B4B4; width: 42px; height: 26px;}
+.randomBtn input { width: 42px; height: 18px; padding: 3px 0; line-height: 18px; margin: 0; display: block; text-align: center; border: 0;}
+.randomBtn span { position: absolute; top: 0; left: 0; width: 40px; display: block; color: #9B9B9B;}
+.shoucangBtn { height: 28px; margin-bottom: 8px; width: 98px; font-family: Tahoma; position: relative; overflow: hidden;}
+.randomBtn .selected_btn { width: 46px; float: right;}
+.shoucangBtn .storeUpBtn i, .shoucangBtn .exportBtn i { display: inline-block; height: 17px; width: 17px; line-height: 0; font-size: 0; left: 0; background: url(../img/collectBg_48fed6c.png) no-repeat 0 0; display: inline-block; top: 4px; position: relative;}
+.shoucangBtn .exportBtn i { background-position: -19px 0;}
+.selected_btnbox .clear_btn { margin: 0;}
+.betresult { text-align: center; padding: 3px 0 11px; height: 27px; line-height: 27px;}
+.addSubtract a { width: 22px; background: url(../img/szc_comicons_2418d67.png) no-repeat; display: inline-block; height: 20px; font-family: Simsun; font-size: 14px; outline: 0;}
+.addSubtract a.add, .addSubtract a.addDisable { float: right; border-left: 1px solid #abadb3; background-position: -119px 0;}
+.addSubtract a.subtract, .addSubtract a.subtractDisable { float: left; border-right: 1px solid #abadb3; background-position: -72px 0;}
+.addSubtract { height: 20px; width: 83px; display: inline-block; border: 1px solid #abadb3; margin: 0 3px; position: relative; top: 6px; z-index: 50;}
+.addSubtract input { float: left; height: 20px; line-height: 20px; border: 0; padding: 0; width: 37px; text-align: center;}
+.betresult strong { color: #ba2636; margin: 0 3px; font-family: Verdana; }
+.betBtnBox { clear: both; padding: 10px 0 15px;}
+.betBtns { padding-left: 302px; height: 43px; line-height: 43px;}
+.treaty { padding: 10px; text-align: center;}
+.betBtns a.betting_Btn { background-position: 0 -180px;}
+.betBtns a { display: inline-block; width: 146px; height: 43px; background: url(../img/lotteryBaseImg_9f1beac.png) no-repeat 0 0; cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+/*右侧边栏统一样式*/
+.section .sidebox{padding-top: 10px; width: 237px; line-height: 21px; font-family: simsun; border-left: 1px solid #dedede; background: #f6f6f6;}
+.sidebox div{border-top: 1px solid #fff; border-bottom: 1px solid #e3e3e3; padding: 8px 13px 10px 14px;}
+.sidebox div h3{ font-weight: 700; position: relative; z-index: 10; color: #333; padding-bottom: 3px; font-size: 13px;}
+.sidebox div a{color: #333;}
+.sidebox div a:hover{ color: #ba2636;}
+.sidebox div h3 .more{position: absolute; right: 0; margin: 0; font-size: 12px;font-family: simsun; font-weight: 400;}
+.sidebox div .txtlist li{line-height: 25px; width: 210px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+/*双色球奖池*/
+.sidebox .total{ color: #717171; padding-bottom: 10px; border-bottom: 1px solid #e3e3e3; padding: 0 13px 10px 14px;border-top:none;}  
+.sidebox .total h3{padding: 0;}
+.sidebox .total .totalnum{ font-size: 14px; color: #ba2636; font-weight: 700; font-family: Arial; line-height: 30px;}
+.sidebox .total .totalnum strong{ font-size: 22px; line-height: 30px;}
+.sidebox .total p span{color: #ba2636;}
+/*开奖公告*/
+.drawnotice p span{ margin: 0 3px;}
+.drawnotice .currenaward{padding: 5px 0 10px;}
+.drawnotice .currenaward em{display: block; float: left; height: 21px; width: 20px; color: #fff; font: 700 14px/21px Arial; background: url(../img/newballs_0df07ea.png) no-repeat; text-align: center; margin-right: 4px;}
+.drawnotice .currenaward em.redball{background-position: 0 -38px;}
+.drawnotice .currenaward em.blueball{background-position: -23px -38px;}
+.drawnotice .winlist{width: 210px; line-height: 29px; color: #717171;}
+.drawnotice .winlist tbody tr th{background: #ebebeb; text-align: center;}
+.drawnotice .winlist tbody tr td{border-bottom: 1px dotted #aeaeae;}
+.drawnotice .winlist tbody tr:last-child td{border: none;}
+.drawnotice .winlist tbody tr td.t_r{text-align: right;}
+
+/*帮助中心*/
+.sidebox .helpbox{display: none;}
+/*热点导航，体育赛事开始*/
+.hot{ background-color: #fff; border: 1px solid #d5d5d5; line-height: 26px; margin-bottom: 10px; clear: both; overflow: hidden; padding: 0; position: relative; z-index: 10;}
+.hot h2{ display: block; width: 80px; font-weight: 700;font-size: 100%;}
+.hot h2 em{text-align: center; display: block; background-color: #f7f7f7; border: solid #d5d5d5; border-width: 1px 1px 1px 0; height: 32px; line-height: 32px; margin: -1px -1px -1px 0; font-weight: 700; position: relative;cursor: pointer;}
+.hot h2 em.active{background-color: #fff; border-right-color: #fff;}
+.hot p{ height: 52px; overflow: hidden; width: 840px; padding: 5px 0 5px 20px; border-left: 1px solid #d5d5d5;}
+.hot p a{margin-right: 25px; white-space: nowrap; float: left;color: #333;}
+.hot p a.showmore{ position: absolute; right: 0; margin-right: 12px; font-family: simsun;}
+.hot p a:hover{color: #ba2636; text-decoration: underline;}
+/*热点导航，体育赛事结束*/
+/*底部开始*/
+footer{ background-color: #f7f7f7; width: 100%; padding: 10px 0; min-width: 990px; }
+footer>ul{margin: 0 auto 10px; overflow: visible; padding-top: 5px; height: 154px; width: 960px;}
+footer>ul li{float: left; height: 154px; padding-left: 20px;overflow: hidden; padding-top: 8px;background: url(../img/headfoot_8ed653e.png) no-repeat -340px -66px; font-family: '宋体';}
+footer>ul li:first-child{ padding: 0 30px 0 0; background: 0 0;}
+footer>ul>li em{display: block; background: url(../img/headfoot_8ed653e.png) no-repeat; width: 104px; height: 34px; margin-bottom: 16px;}
+footer>ul>li .footlogo{background-position: 0 -66px; width: 202px; height: 47px; margin-bottom: 15px;}
+footer>ul>li .footchack{width: 100px; height: 87px; margin-left: 48px; background-position: 0 -113px;}
+footer>ul li:nth-child(2) em{background-position: -100px -113px;}
+footer>ul li:nth-child(3) em{background-position: -204px -113px;}
+footer>ul li:nth-child(4) em{background-position: -100px -147px;}
+footer>ul li:nth-child(5) em{background-position: -204px -147px;}
+footer>ul li span{ display: block; width: 159px; line-height: 23px; color: #e23c25; font-size: 10px;}
+footer>ul li span a{ color: #686868; font-size: 12px;}
+footer .aboutnext{text-align: center; margin: 10px auto 10px; width: 960px; line-height: 26px; color: #999; font-size: 12px; height: auto; padding-top: 4px; clear: both;}
+footer .aboutnext a{color: #999;}
+/*底部结束*/
